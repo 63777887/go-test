@@ -1,0 +1,196 @@
+2022-09-03 16:18:49.168	DEBUG	test/main.go:14	TestServer Start...
+2022-09-03 16:18:49.168	DEBUG	web/web.go:17	endpoint GET/testjwk/test/pkg/handler.CreatePublicAccountHandler.func14
+2022-09-03 16:18:49.168	DEBUG	web/web.go:22	WebServer Start, Addr: 	{"serverAddr": "0.0.0.0:21080"}
+2022-09-03 16:23:30.311	DEBUG	test/main.go:14	TestServer Start...
+2022-09-03 16:23:30.313	DEBUG	web/web.go:18	Endpoint: 	{"Method": "GET", "Path": "/test", "Handler": "jwk/test/pkg/handler.SysUserHandler.func1", "NuHandlers": 4}
+2022-09-03 16:23:30.313	DEBUG	web/web.go:23	WebServer Start, Addr: 	{"serverAddr": "0.0.0.0:21080"}
+2022-09-03 16:24:07.762	DEBUG	test/main.go:14	TestServer Start...
+2022-09-03 16:24:07.763	DEBUG	web/web.go:18	Endpoint:	{"Method": "GET", "Path": "/test", "Handler": "jwk/test/pkg/handler.SysUserHandler.func1", "NuHandlers": 4}
+2022-09-03 16:24:07.763	DEBUG	web/web.go:23	WebServer Start, Addr: 	{"serverAddr": "0.0.0.0:21080"}
+2022-09-03 16:27:19.871	DEBUG	test/main.go:14	TestServer Start...
+2022-09-03 16:27:19.872	DEBUG	web/web.go:18	Endpoint:	{"Method": "GET", "Path": "/test", "Handler": "jwk/test/pkg/handler.SysUserHandler.func1", "NuHandlers": 4}
+2022-09-03 16:27:19.872	DEBUG	web/web.go:26	WebServer Start, Addr: 	{"serverAddr": "0.0.0.0:21080"}
+2022-09-03 16:40:39.323	DEBUG	test/main.go:14	TestServer Start...
+2022-09-03 16:40:39.324	DEBUG	web/web.go:19	Endpoint:	{"Method": "GET", "Path": "/test", "Handler": "jwk/test/pkg/handler.SysUserHandler.func1", "NuHandlers": 4}
+2022-09-03 16:40:39.324	DEBUG	web/web.go:25	WebServer Start, Addr: 	{"serverAddr": "0.0.0.0:21080"}
+2022-09-03 16:41:19.845	DEBUG	test/main.go:14	TestServer Start...
+2022-09-03 16:41:19.846	DEBUG	web/web.go:19	Endpoint:	{"Method": "GET", "Path": "/test", "Handler": "jwk/test/pkg/handler.SysUserHandler.func1", "NuHandlers": 1}
+2022-09-03 16:41:19.846	DEBUG	web/web.go:25	WebServer Start, Addr: 	{"serverAddr": "0.0.0.0:21080"}
+2022-09-03 16:41:35.372	DEBUG	test/main.go:14	TestServer Start...
+2022-09-03 16:41:35.373	DEBUG	web/web.go:19	Endpoint:	{"Method": "GET", "Path": "/test", "Handler": "jwk/test/pkg/handler.SysUserHandler.func1", "NuHandlers": 4}
+2022-09-03 16:41:35.374	DEBUG	web/web.go:25	WebServer Start, Addr: 	{"serverAddr": "0.0.0.0:21080"}
+2022-09-03 16:42:26.515	DEBUG	handler/base.go:20	===============================
+2022-09-03 16:42:26.516	DEBUG	handler/base.go:21	GET
+2022-09-03 16:42:26.516	DEBUG	dao/sysUsersql.go:14	GetSysUserSql start
+2022-09-03 16:42:26.681	DEBUG	dao/sysUsersql.go:23	GetSysUserSql End
+2022-09-03 16:42:26.682	INFO	handler/base.go:47	/test	{"status": 200, "method": "GET", "path": "/test", "query": "id=4", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36", "errors": "", "cost": 0.1665015}
+2022-09-03 16:43:01.514	DEBUG	handler/base.go:20	===============================
+2022-09-03 16:43:01.516	DEBUG	handler/base.go:21	GET
+2022-09-03 16:43:01.516	DEBUG	dao/sysUsersql.go:14	GetSysUserSql start
+2022-09-03 16:43:01.668	DEBUG	dao/sysUsersql.go:23	GetSysUserSql End
+2022-09-03 16:43:01.669	INFO	handler/base.go:47	/test	{"status": 200, "method": "GET", "path": "/test", "query": "id=1", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36", "errors": "", "cost": 0.1542667}
+2022-09-03 16:43:40.142	DEBUG	test/main.go:14	TestServer Start...
+2022-09-03 16:43:40.144	DEBUG	web/web.go:19	Endpoint:	{"Method": "GET", "Path": "/test", "Handler": "jwk/test/pkg/handler.SysUserHandler.func1", "NuHandlers": 4}
+2022-09-03 16:43:40.144	DEBUG	web/web.go:25	WebServer Start, Addr: 	{"serverAddr": "0.0.0.0:21080"}
+2022-09-03 16:43:56.703	DEBUG	handler/base.go:20	===============================
+2022-09-03 16:43:56.703	DEBUG	handler/base.go:21	GET
+2022-09-03 16:43:56.703	DEBUG	dao/sysUsersql.go:14	GetSysUserSql start
+2022-09-03 16:43:56.904	DEBUG	dao/sysUsersql.go:23	GetSysUserSql End
+2022-09-03 16:43:56.905	INFO	handler/base.go:47	/test	{"status": 200, "method": "GET", "path": "/test", "query": "id=1", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36", "errors": "", "cost": 0.2024046}
+2022-09-03 16:43:57.164	DEBUG	handler/base.go:20	===============================
+2022-09-03 16:43:57.165	DEBUG	handler/base.go:21	GET
+2022-09-03 16:43:57.165	DEBUG	dao/sysUsersql.go:14	GetSysUserSql start
+2022-09-03 16:43:57.351	DEBUG	dao/sysUsersql.go:23	GetSysUserSql End
+2022-09-03 16:43:57.351	INFO	handler/base.go:47	/test	{"status": 200, "method": "GET", "path": "/test", "query": "id=1", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36", "errors": "", "cost": 0.1867808}
+2022-09-03 16:43:57.503	DEBUG	handler/base.go:20	===============================
+2022-09-03 16:43:57.504	DEBUG	handler/base.go:21	GET
+2022-09-03 16:43:57.504	DEBUG	dao/sysUsersql.go:14	GetSysUserSql start
+2022-09-03 16:43:57.691	DEBUG	dao/sysUsersql.go:23	GetSysUserSql End
+2022-09-03 16:43:57.693	INFO	handler/base.go:47	/test	{"status": 200, "method": "GET", "path": "/test", "query": "id=1", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36", "errors": "", "cost": 0.1895585}
+2022-09-03 16:43:57.740	DEBUG	handler/base.go:20	===============================
+2022-09-03 16:43:57.741	DEBUG	handler/base.go:21	GET
+2022-09-03 16:43:57.741	DEBUG	dao/sysUsersql.go:14	GetSysUserSql start
+2022-09-03 16:43:57.925	DEBUG	dao/sysUsersql.go:23	GetSysUserSql End
+2022-09-03 16:43:57.926	INFO	handler/base.go:47	/test	{"status": 200, "method": "GET", "path": "/test", "query": "id=1", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36", "errors": "", "cost": 0.1860755}
+2022-09-03 16:43:58.064	DEBUG	handler/base.go:20	===============================
+2022-09-03 16:43:58.065	DEBUG	handler/base.go:21	GET
+2022-09-03 16:43:58.065	DEBUG	dao/sysUsersql.go:14	GetSysUserSql start
+2022-09-03 16:43:58.255	DEBUG	dao/sysUsersql.go:23	GetSysUserSql End
+2022-09-03 16:43:58.255	INFO	handler/base.go:47	/test	{"status": 200, "method": "GET", "path": "/test", "query": "id=1", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36", "errors": "", "cost": 0.1907866}
+2022-09-03 16:44:58.877	DEBUG	test/main.go:14	TestServer Start...
+2022-09-03 16:44:58.878	DEBUG	web/web.go:19	Endpoint:	{"Method": "GET", "Path": "/test", "Handler": "jwk/test/pkg/handler.SysUserHandler.func1", "NuHandlers": 3}
+2022-09-03 16:44:58.878	DEBUG	web/web.go:25	WebServer Start, Addr: 	{"serverAddr": "0.0.0.0:21080"}
+2022-09-03 16:45:17.380	DEBUG	dao/sysUsersql.go:14	GetSysUserSql start
+2022-09-03 16:45:17.563	DEBUG	dao/sysUsersql.go:23	GetSysUserSql End
+2022-09-03 16:45:17.956	DEBUG	dao/sysUsersql.go:14	GetSysUserSql start
+2022-09-03 16:45:18.157	DEBUG	dao/sysUsersql.go:23	GetSysUserSql End
+2022-09-03 16:45:18.350	DEBUG	dao/sysUsersql.go:14	GetSysUserSql start
+2022-09-03 16:45:18.541	DEBUG	dao/sysUsersql.go:23	GetSysUserSql End
+2022-09-03 16:50:23.348	DEBUG	test/main.go:14	TestServer Start...
+2022-09-03 16:50:23.348	INFO	web/web.go:18	Endpoint:	{"Method": "GET", "Path": "/test", "Handler": "jwk/test/pkg/handler.SysUserHandler.func1", "NuHandlers": 4}
+2022-09-03 16:50:23.349	INFO	web/web.go:24	WebServer Start, Addr: 	{"serverAddr": "0.0.0.0:21080"}
+2022-09-03 16:50:34.663	INFO	handler/base.go:44	/test	{"status": 200, "method": "GET", "path": "/test", "query": "id=1", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36", "errors": "", "cost": 0.1513525}
+2022-09-03 16:50:35.078	INFO	handler/base.go:44	/test	{"status": 200, "method": "GET", "path": "/test", "query": "id=1", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36", "errors": "", "cost": 0.1518258}
+2022-09-03 16:50:35.399	INFO	handler/base.go:44	/test	{"status": 200, "method": "GET", "path": "/test", "query": "id=1", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36", "errors": "", "cost": 0.1498532}
+2022-09-03 16:56:48.538	DEBUG	test/main.go:14	TestServer Start...
+2022-09-03 16:56:48.540	INFO	web/web.go:20	Endpoint:	{"Method": "GET", "Path": "/test", "Handler": "jwk/test/pkg/handler.SysUserHandler.func1", "NuHandlers": 4}
+2022-09-03 16:56:48.540	INFO	web/web.go:26	WebServer Start, Addr: 	{"serverAddr": "0.0.0.0:21080"}
+2022-09-03 16:56:54.851	INFO	handler/base.go:44	/test	{"Status": 200, "Method": "GET", "Path": "/test", "Query": "id=1", "Ip": "127.0.0.1", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36", "Errors": "", "Cost": 0.1600238}
+2022-09-03 16:56:55.172	INFO	handler/base.go:44	/test	{"Status": 200, "Method": "GET", "Path": "/test", "Query": "id=1", "Ip": "127.0.0.1", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36", "Errors": "", "Cost": 0.1587611}
+2022-09-03 16:56:55.388	INFO	handler/base.go:44	/test	{"Status": 200, "Method": "GET", "Path": "/test", "Query": "id=1", "Ip": "127.0.0.1", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36", "Errors": "", "Cost": 0.1603224}
+2022-09-03 16:56:55.592	INFO	handler/base.go:44	/test	{"Status": 200, "Method": "GET", "Path": "/test", "Query": "id=1", "Ip": "127.0.0.1", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36", "Errors": "", "Cost": 0.1603862}
+2022-09-03 16:56:55.789	INFO	handler/base.go:44	/test	{"Status": 200, "Method": "GET", "Path": "/test", "Query": "id=1", "Ip": "127.0.0.1", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36", "Errors": "", "Cost": 0.1603184}
+2022-09-03 16:57:24.510	DEBUG	test/main.go:14	TestServer Start...
+2022-09-03 16:57:24.512	INFO	web/web.go:20	Endpoint:	{"Method": "GET", "Path": "/test", "Handler": "jwk/test/pkg/handler.SysUserHandler.func1", "NuHandlers": 4}
+2022-09-03 16:57:24.512	INFO	web/web.go:26	WebServer Start, Addr: 	{"serverAddr": "0.0.0.0:21080"}
+2022-09-03 16:57:27.616	INFO	handler/base.go:44	/test	{"Status": 200, "Method": "GET", "Path": "/test", "Query": "id=1", "Ip": "127.0.0.1", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36", "Errors": "", "Cost": 0.1651284}
+2022-09-03 16:57:28.038	INFO	handler/base.go:44	/test	{"Status": 200, "Method": "GET", "Path": "/test", "Query": "id=1", "Ip": "127.0.0.1", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36", "Errors": "", "Cost": 0.1625971}
+2022-09-03 16:57:28.244	INFO	handler/base.go:44	/test	{"Status": 200, "Method": "GET", "Path": "/test", "Query": "id=1", "Ip": "127.0.0.1", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36", "Errors": "", "Cost": 0.1633573}
+2022-09-03 16:57:28.604	INFO	handler/base.go:44	/test	{"Status": 200, "Method": "GET", "Path": "/test", "Query": "id=1", "Ip": "127.0.0.1", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36", "Errors": "", "Cost": 0.1632922}
+2022-09-03 17:01:05.572	DEBUG	test/main.go:14	TestServer Start...
+2022-09-03 17:01:05.574	INFO	web/web.go:20	Endpoint:	{"Method": "GET", "Path": "/test", "Handler": "jwk/test/pkg/handler.SysUserHandler.func1", "NuHandlers": 4}
+2022-09-03 17:01:05.574	INFO	web/web.go:26	WebServer Start, Addr: 	{"serverAddr": "0.0.0.0:21080"}
+2022-09-03 17:01:12.892	INFO	handler/base.go:44	/test	{"Status": 200, "Method": "GET", "Path": "/test", "Query": "id=1", "Ip": "127.0.0.1", "Errors": "", "Cost": 0.1927253}
+2022-09-03 17:01:13.266	INFO	handler/base.go:44	/test	{"Status": 200, "Method": "GET", "Path": "/test", "Query": "id=1", "Ip": "127.0.0.1", "Errors": "", "Cost": 0.1537229}
+2022-09-03 17:01:13.608	INFO	handler/base.go:44	/test	{"Status": 200, "Method": "GET", "Path": "/test", "Query": "id=1", "Ip": "127.0.0.1", "Errors": "", "Cost": 0.1778157}
+2022-09-03 17:32:55.151	DEBUG	test/main.go:14	TestServer Start...
+2022-09-03 17:32:55.151	INFO	web/web.go:20	Endpoint:	{"Method": "GET", "Path": "/test", "Handler": "jwk/test/pkg/handler.SysUserHandler.func1", "NuHandlers": 4}
+2022-09-03 17:32:55.151	INFO	web/web.go:26	WebServer Start, Addr: 	{"serverAddr": "0.0.0.0:21080"}
+2022-09-03 17:35:46.531	DEBUG	test/main.go:14	TestServer Start...
+2022-09-03 17:35:46.532	INFO	web/web.go:20	Endpoint:	{"Method": "GET", "Path": "/test", "Handler": "jwk/test/pkg/handler.GetSysUserHandler.func1", "NuHandlers": 4}
+2022-09-03 17:35:46.532	INFO	web/web.go:20	Endpoint:	{"Method": "GET", "Path": "/test1", "Handler": "jwk/test/pkg/handler.GetSysUserHandler.func1", "NuHandlers": 4}
+2022-09-03 17:35:46.532	INFO	web/web.go:28	WebServer Start, Addr: 	{"serverAddr": "0.0.0.0:21080"}
+2022-09-03 17:35:55.927	DEBUG	test/main.go:14	TestServer Start...
+2022-09-03 17:35:55.927	INFO	web/web.go:20	Endpoint:	{"Method": "GET", "Path": "/test", "Handler": "jwk/test/pkg/handler.GetSysUserHandler.func1", "NuHandlers": 4}
+2022-09-03 17:35:55.927	INFO	web/web.go:20	Endpoint:	{"Method": "GET", "Path": "/test1", "Handler": "jwk/test/pkg/handler.UpdateSysUserHandler.func1", "NuHandlers": 4}
+2022-09-03 17:35:55.927	INFO	web/web.go:28	WebServer Start, Addr: 	{"serverAddr": "0.0.0.0:21080"}
+2022-09-03 17:36:06.550	ERROR	handler/base.go:86	[Recovery from panic]	{"Error": "runtime error: integer divide by zero", "Request": "GET /test1?id=1 HTTP/1.1\r\nHost: 127.0.0.1:21080\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: zh-CN,zh;q=0.9\r\nConnection: keep-alive\r\nSec-Ch-Ua: \"Google Chrome\";v=\"105\", \"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"105\"\r\nSec-Ch-Ua-Mobile: ?0\r\nSec-Ch-Ua-Platform: \"Windows\"\r\nSec-Fetch-Dest: document\r\nSec-Fetch-Mode: navigate\r\nSec-Fetch-Site: none\r\nSec-Fetch-User: ?1\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36\r\n\r\n", "Stack": "goroutine 10 [running]:\nruntime/debug.Stack()\n\tD:/Program Files/Go/src/runtime/debug/stack.go:24 +0x7a\njwk/test/pkg/handler.GinRecovery.func1.1()\n\tE:/learnProject/go/test/pkg/handler/base.go:89 +0x6c9\npanic({0x118e100, 0x14acfb0})\n\tD:/Program Files/Go/src/runtime/panic.go:844 +0x25a\njwk/test/pkg/dao.UpdateSysUserSql(0x1)\n\tE:/learnProject/go/test/pkg/dao/sysUsersql.go:44 +0x535\njwk/test/pkg/handler.TestService.UpdateSysUser({}, {0x126a168, 0xc0000bc000}, 0x1)\n\tE:/learnProject/go/test/pkg/handler/method.go:33 +0x50\njwk/test/pkg/handler.UpdateSysUserHandler.func1(0xc0000bc000)\n\tE:/learnProject/go/test/pkg/handler/middleware.go:47 +0x125\ngithub.com/gin-gonic/gin.(*Context).Next(0xc0000bc000)\n\tD:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 +0x7d\njwk/test/pkg/handler.Cors.func1(0xc0000bc000)\n\tE:/learnProject/go/test/pkg/handler/base.go:31 +0x1fb\ngithub.com/gin-gonic/gin.(*Context).Next(0xc0000bc000)\n\tD:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 +0x7d\njwk/test/pkg/handler.GinRecovery.func1(0xc0000bc000)\n\tE:/learnProject/go/test/pkg/handler/base.go:100 +0xbe\ngithub.com/gin-gonic/gin.(*Context).Next(0xc0000bc000)\n\tD:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 +0x7d\njwk/test/pkg/handler.GinLogger.func1(0xc0000bc000)\n\tE:/learnProject/go/test/pkg/handler/base.go:41 +0xb4\ngithub.com/gin-gonic/gin.(*Context).Next(0xc0000bc000)\n\tD:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 +0x7d\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc00015f380, 0xc0000bc000)\n\tD:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616 +0x429\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc00015f380, {0x1269a30, 0xc0000ac000}, 0xc00017e300)\n\tD:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572 +0xbb\nnet/http.serverHandler.ServeHTTP({0xc0001ac0e0}, {0x1269a30, 0xc0000ac000}, 0xc00017e300)\n\tD:/Program Files/Go/src/net/http/server.go:2916 +0x474\nnet/http.(*conn).serve(0xc000179900, {0x1269fa8, 0xc000074ec0})\n\tD:/Program Files/Go/src/net/http/server.go:1966 +0x193c\ncreated by net/http.(*Server).Serve\n\tD:/Program Files/Go/src/net/http/server.go:3071 +0x9cf\n"}
+2022-09-03 17:36:06.555	DEBUG	handler/base.go:44	/test1	{"Status": 500, "Method": "GET", "Path": "/test1", "Query": "id=1", "Ip": "127.0.0.1", "Errors": "", "Cost": 0.5184107}
+2022-09-03 17:39:01.594	DEBUG	test/main.go:14	TestServer Start...
+2022-09-03 17:39:01.595	INFO	web/web.go:20	Endpoint:	{"Method": "GET", "Path": "/test", "Handler": "jwk/test/pkg/handler.GetSysUserHandler.func1", "NuHandlers": 4}
+2022-09-03 17:39:01.595	INFO	web/web.go:20	Endpoint:	{"Method": "GET", "Path": "/test1", "Handler": "jwk/test/pkg/handler.UpdateSysUserHandler.func1", "NuHandlers": 4}
+2022-09-03 17:39:01.595	INFO	web/web.go:28	WebServer Start, Addr: 	{"serverAddr": "0.0.0.0:21080"}
+2022-09-03 17:39:11.942	ERROR	handler/base.go:86	[Recovery from panic]	{"Error": "implement me", "Request": "GET /test1?id=1 HTTP/1.1\r\nHost: 127.0.0.1:21080\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: zh-CN,zh;q=0.9\r\nCache-Control: max-age=0\r\nConnection: keep-alive\r\nSec-Ch-Ua: \"Google Chrome\";v=\"105\", \"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"105\"\r\nSec-Ch-Ua-Mobile: ?0\r\nSec-Ch-Ua-Platform: \"Windows\"\r\nSec-Fetch-Dest: document\r\nSec-Fetch-Mode: navigate\r\nSec-Fetch-Site: none\r\nSec-Fetch-User: ?1\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36\r\n\r\n", "Stack": "goroutine 56 [running]:\nruntime/debug.Stack()\n\tD:/Program Files/Go/src/runtime/debug/stack.go:24 +0x7a\njwk/test/pkg/handler.GinRecovery.func1.1()\n\tE:/learnProject/go/test/pkg/handler/base.go:89 +0x6c9\npanic({0x10d2100, 0x11c5bd0})\n\tD:/Program Files/Go/src/runtime/panic.go:844 +0x25a\njwk/test/pkg/handler.TestService.UpdateSysUser({}, {0x11ca188, 0xc00061a200}, 0x1)\n\tE:/learnProject/go/test/pkg/handler/method.go:34 +0x65\njwk/test/pkg/handler.UpdateSysUserHandler.func1(0xc00061a200)\n\tE:/learnProject/go/test/pkg/handler/middleware.go:47 +0x125\ngithub.com/gin-gonic/gin.(*Context).Next(0xc00061a200)\n\tD:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 +0x7d\njwk/test/pkg/handler.Cors.func1(0xc00061a200)\n\tE:/learnProject/go/test/pkg/handler/base.go:31 +0x1fb\ngithub.com/gin-gonic/gin.(*Context).Next(0xc00061a200)\n\tD:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 +0x7d\njwk/test/pkg/handler.GinRecovery.func1(0xc00061a200)\n\tE:/learnProject/go/test/pkg/handler/base.go:100 +0xbe\ngithub.com/gin-gonic/gin.(*Context).Next(0xc00061a200)\n\tD:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 +0x7d\njwk/test/pkg/handler.GinLogger.func1(0xc00061a200)\n\tE:/learnProject/go/test/pkg/handler/base.go:41 +0xb4\ngithub.com/gin-gonic/gin.(*Context).Next(0xc00061a200)\n\tD:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 +0x7d\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc0006041a0, 0xc00061a200)\n\tD:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616 +0x429\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc0006041a0, {0x11c9a50, 0xc00060c0e0}, 0xc000226300)\n\tD:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572 +0xbb\nnet/http.serverHandler.ServeHTTP({0xc000482000}, {0x11c9a50, 0xc00060c0e0}, 0xc000226300)\n\tD:/Program Files/Go/src/net/http/server.go:2916 +0x474\nnet/http.(*conn).serve(0xc0004be000, {0x11c9fc8, 0xc0004d0100})\n\tD:/Program Files/Go/src/net/http/server.go:1966 +0x193c\ncreated by net/http.(*Server).Serve\n\tD:/Program Files/Go/src/net/http/server.go:3071 +0x9cf\n"}
+2022-09-03 17:39:11.943	DEBUG	handler/base.go:44	/test1	{"Status": 500, "Method": "GET", "Path": "/test1", "Query": "id=1", "Ip": "127.0.0.1", "Errors": "", "Cost": 0.5162756}
+2022-09-03 17:44:57.159	DEBUG	test/main.go:14	TestServer Start...
+2022-09-03 17:44:57.159	INFO	web/web.go:20	Endpoint:	{"Method": "GET", "Path": "/test", "Handler": "jwk/test/pkg/handler.GetSysUserHandler.func1", "NuHandlers": 4}
+2022-09-03 17:44:57.159	INFO	web/web.go:20	Endpoint:	{"Method": "GET", "Path": "/test1", "Handler": "jwk/test/pkg/handler.UpdateSysUserHandler.func1", "NuHandlers": 4}
+2022-09-03 17:44:57.159	INFO	web/web.go:28	WebServer Start, Addr: 	{"serverAddr": "0.0.0.0:21080"}
+2022-09-03 17:45:03.307	ERROR	handler/base.go:86	[Recovery from panic]	{"Error": "implement me", "Request": "GET /test1?id=1 HTTP/1.1\r\nHost: 127.0.0.1:21080\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: zh-CN,zh;q=0.9\r\nCache-Control: max-age=0\r\nConnection: keep-alive\r\nSec-Ch-Ua: \"Google Chrome\";v=\"105\", \"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"105\"\r\nSec-Ch-Ua-Mobile: ?0\r\nSec-Ch-Ua-Platform: \"Windows\"\r\nSec-Fetch-Dest: document\r\nSec-Fetch-Mode: navigate\r\nSec-Fetch-Site: cross-site\r\nSec-Fetch-User: ?1\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36\r\n\r\n", "Stack": "goroutine 10 [running]:\nruntime/debug.Stack()\n\tD:/Program Files/Go/src/runtime/debug/stack.go:24 +0x7a\njwk/test/pkg/handler.GinRecovery.func1.1()\n\tE:/learnProject/go/test/pkg/handler/base.go:89 +0x6c9\npanic({0x8c1100, 0x9b4b30})\n\tD:/Program Files/Go/src/runtime/panic.go:844 +0x25a\njwk/test/pkg/handler.TestService.UpdateSysUser({}, {0x9b90e8, 0xc00027e100}, 0x1)\n\tE:/learnProject/go/test/pkg/handler/method.go:34 +0x46\njwk/test/pkg/handler.UpdateSysUserHandler.func1(0xc00027e100)\n\tE:/learnProject/go/test/pkg/handler/middleware.go:47 +0x125\ngithub.com/gin-gonic/gin.(*Context).Next(0xc00027e100)\n\tD:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 +0x7d\njwk/test/pkg/handler.Cors.func1(0xc00027e100)\n\tE:/learnProject/go/test/pkg/handler/base.go:31 +0x1fb\ngithub.com/gin-gonic/gin.(*Context).Next(0xc00027e100)\n\tD:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 +0x7d\njwk/test/pkg/handler.GinRecovery.func1(0xc00027e100)\n\tE:/learnProject/go/test/pkg/handler/base.go:100 +0xbe\ngithub.com/gin-gonic/gin.(*Context).Next(0xc00027e100)\n\tD:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 +0x7d\njwk/test/pkg/handler.GinLogger.func1(0xc00027e100)\n\tE:/learnProject/go/test/pkg/handler/base.go:41 +0xb4\ngithub.com/gin-gonic/gin.(*Context).Next(0xc00027e100)\n\tD:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173 +0x7d\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc00015f520, 0xc00027e100)\n\tD:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616 +0x429\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc00015f520, {0x9b89b0, 0xc000482000}, 0xc00053c000)\n\tD:/gopath/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572 +0xbb\nnet/http.serverHandler.ServeHTTP({0xc0001ae0e0}, {0x9b89b0, 0xc000482000}, 0xc00053c000)\n\tD:/Program Files/Go/src/net/http/server.go:2916 +0x474\nnet/http.(*conn).serve(0xc0001799a0, {0x9b8f28, 0xc000074ec0})\n\tD:/Program Files/Go/src/net/http/server.go:1966 +0x193c\ncreated by net/http.(*Server).Serve\n\tD:/Program Files/Go/src/net/http/server.go:3071 +0x9cf\n"}
+2022-09-03 17:45:03.309	DEBUG	handler/base.go:44	/test1	{"Status": 500, "Method": "GET", "Path": "/test1", "Query": "id=1", "Ip": "127.0.0.1", "Errors": "", "Cost": 0.3951773}
+2022-09-03 17:46:01.082	DEBUG	test/main.go:14	TestServer Start...
+2022-09-03 17:46:01.083	INFO	web/web.go:20	Endpoint:	{"Method": "GET", "Path": "/test", "Handler": "jwk/test/pkg/handler.GetSysUserHandler.func1", "NuHandlers": 4}
+2022-09-03 17:46:01.083	INFO	web/web.go:20	Endpoint:	{"Method": "GET", "Path": "/test1", "Handler": "jwk/test/pkg/handler.UpdateSysUserHandler.func1", "NuHandlers": 4}
+2022-09-03 17:46:01.083	INFO	web/web.go:28	WebServer Start, Addr: 	{"serverAddr": "0.0.0.0:21080"}
+2022-09-03 17:46:06.229	DEBUG	handler/base.go:44	/test1	{"Status": 200, "Method": "GET", "Path": "/test1", "Query": "id=1", "Ip": "127.0.0.1", "Errors": "", "Cost": 0.2734639}
+2022-09-03 17:46:27.388	DEBUG	test/main.go:14	TestServer Start...
+2022-09-03 17:46:27.388	INFO	web/web.go:20	Endpoint:	{"Method": "GET", "Path": "/test", "Handler": "jwk/test/pkg/handler.GetSysUserHandler.func1", "NuHandlers": 4}
+2022-09-03 17:46:27.389	INFO	web/web.go:20	Endpoint:	{"Method": "GET", "Path": "/test1", "Handler": "jwk/test/pkg/handler.UpdateSysUserHandler.func1", "NuHandlers": 4}
+2022-09-03 17:46:27.389	INFO	web/web.go:28	WebServer Start, Addr: 	{"serverAddr": "0.0.0.0:21080"}
+2022-09-03 17:46:32.709	DEBUG	handler/base.go:44	/test1	{"Status": 200, "Method": "GET", "Path": "/test1", "Query": "id=1", "Ip": "127.0.0.1", "Errors": "", "Cost": 0.3723199}
+2022-09-03 17:47:20.417	DEBUG	test/main.go:14	TestServer Start...
+2022-09-03 17:47:20.418	INFO	web/web.go:20	Endpoint:	{"Method": "GET", "Path": "/test", "Handler": "jwk/test/pkg/handler.GetSysUserHandler.func1", "NuHandlers": 4}
+2022-09-03 17:47:20.418	INFO	web/web.go:20	Endpoint:	{"Method": "GET", "Path": "/test1", "Handler": "jwk/test/pkg/handler.UpdateSysUserHandler.func1", "NuHandlers": 4}
+2022-09-03 17:47:20.418	INFO	web/web.go:28	WebServer Start, Addr: 	{"serverAddr": "0.0.0.0:21080"}
+2022-09-03 17:47:29.828	DEBUG	handler/base.go:44	/test1	{"Status": 200, "Method": "GET", "Path": "/test1", "Query": "id=1", "Ip": "127.0.0.1", "Errors": "", "Cost": 0.5849766}
+2022-09-03 17:58:29.736	DEBUG	test/main.go:14	TestServer Start...
+2022-09-03 17:58:29.736	INFO	web/web.go:20	Endpoint:	{"Method": "GET", "Path": "/test", "Handler": "jwk/test/pkg/handler.GetSysUserHandler.func1", "NuHandlers": 4}
+2022-09-03 17:58:29.737	INFO	web/web.go:20	Endpoint:	{"Method": "GET", "Path": "/test1", "Handler": "jwk/test/pkg/handler.UpdateSysUserHandler.func1", "NuHandlers": 4}
+2022-09-03 17:58:29.737	INFO	web/web.go:28	WebServer Start, Addr: 	{"serverAddr": "0.0.0.0:21080"}
+2022-09-03 17:58:41.639	DEBUG	handler/base.go:44	/test1	{"Status": 200, "Method": "GET", "Path": "/test1", "Query": "id=1", "Ip": "127.0.0.1", "Errors": "", "Cost": 0.9428693}
+2022-09-03 17:59:44.690	DEBUG	test/main.go:14	TestServer Start...
+2022-09-03 17:59:44.690	INFO	web/web.go:20	Endpoint:	{"Method": "GET", "Path": "/test", "Handler": "jwk/test/pkg/handler.GetSysUserHandler.func1", "NuHandlers": 3}
+2022-09-03 17:59:44.690	INFO	web/web.go:20	Endpoint:	{"Method": "GET", "Path": "/test1", "Handler": "jwk/test/pkg/handler.UpdateSysUserHandler.func1", "NuHandlers": 3}
+2022-09-03 17:59:44.690	INFO	web/web.go:28	WebServer Start, Addr: 	{"serverAddr": "0.0.0.0:21080"}
+2022-09-03 18:07:28.251	DEBUG	test/main.go:14	TestServer Start...
+2022-09-03 18:07:28.252	INFO	web/web.go:20	Endpoint:	{"Method": "GET", "Path": "/test", "Handler": "jwk/test/pkg/handler.GetSysUserHandler.func1", "NuHandlers": 4}
+2022-09-03 18:07:28.252	INFO	web/web.go:20	Endpoint:	{"Method": "GET", "Path": "/test1", "Handler": "jwk/test/pkg/handler.UpdateSysUserHandler.func1", "NuHandlers": 4}
+2022-09-03 18:07:28.252	INFO	web/web.go:28	WebServer Start, Addr: 	{"serverAddr": "0.0.0.0:21080"}
+2022-09-03 18:07:37.116	DEBUG	handler/base.go:44	/test1	{"Status": 200, "Method": "GET", "Path": "/test1", "Query": "id=1", "Ip": "127.0.0.1", "Errors": "", "Cost": 1.0892272}
+2022-09-03 18:07:47.537	DEBUG	handler/base.go:44	/test1	{"Status": 200, "Method": "GET", "Path": "/test1", "Query": "id=1", "Ip": "127.0.0.1", "Errors": "", "Cost": 0.7430081}
+2022-09-03 18:12:24.688	DEBUG	test/main.go:14	TestServer Start...
+2022-09-03 18:12:24.689	INFO	web/web.go:20	Endpoint:	{"Method": "GET", "Path": "/test", "Handler": "jwk/test/pkg/handler.GetSysUserHandler.func1", "NuHandlers": 4}
+2022-09-03 18:12:24.689	INFO	web/web.go:20	Endpoint:	{"Method": "GET", "Path": "/test1", "Handler": "jwk/test/pkg/handler.UpdateSysUserHandler.func1", "NuHandlers": 4}
+2022-09-03 18:12:24.689	INFO	web/web.go:28	WebServer Start, Addr: 	{"serverAddr": "0.0.0.0:21080"}
+2022-09-03 18:12:38.699	DEBUG	handler/base.go:44	/test1	{"Status": 200, "Method": "GET", "Path": "/test1", "Query": "id=1", "Ip": "127.0.0.1", "Errors": "", "Cost": 0.1508703}
+2022-09-03 18:23:09.105	DEBUG	test/main.go:14	TestServer Start...
+2022-09-03 18:23:09.105	INFO	web/web.go:20	Endpoint:	{"Method": "GET", "Path": "/test", "Handler": "jwk/test/pkg/handler.GetSysUserHandler.func1", "NuHandlers": 4}
+2022-09-03 18:23:09.105	INFO	web/web.go:20	Endpoint:	{"Method": "GET", "Path": "/test1", "Handler": "jwk/test/pkg/handler.UpdateSysUserHandler.func1", "NuHandlers": 4}
+2022-09-03 18:23:09.106	INFO	web/web.go:28	WebServer Start, Addr: 	{"serverAddr": "0.0.0.0:21080"}
+2022-09-03 18:23:18.139	DEBUG	handler/base.go:44	/test1	{"Status": 200, "Method": "GET", "Path": "/test1", "Query": "id=1", "Ip": "127.0.0.1", "Errors": "", "Cost": 0.1882833}
+2022-09-03 18:24:11.984	DEBUG	test/main.go:14	TestServer Start...
+2022-09-03 18:24:11.984	INFO	web/web.go:20	Endpoint:	{"Method": "GET", "Path": "/test", "Handler": "jwk/test/pkg/handler.GetSysUserHandler.func1", "NuHandlers": 4}
+2022-09-03 18:24:11.984	INFO	web/web.go:20	Endpoint:	{"Method": "GET", "Path": "/test1", "Handler": "jwk/test/pkg/handler.UpdateSysUserHandler.func1", "NuHandlers": 4}
+2022-09-03 18:24:11.985	INFO	web/web.go:28	WebServer Start, Addr: 	{"serverAddr": "0.0.0.0:21080"}
+2022-09-03 18:24:15.777	DEBUG	handler/base.go:44	/test1	{"Status": 200, "Method": "GET", "Path": "/test1", "Query": "id=1", "Ip": "127.0.0.1", "Errors": "", "Cost": 1.2588739}
+2022-09-03 18:25:10.031	DEBUG	test/main.go:14	TestServer Start...
+2022-09-03 18:25:10.032	INFO	web/web.go:20	Endpoint:	{"Method": "GET", "Path": "/test", "Handler": "jwk/test/pkg/handler.GetSysUserHandler.func1", "NuHandlers": 4}
+2022-09-03 18:25:10.032	INFO	web/web.go:20	Endpoint:	{"Method": "GET", "Path": "/test1", "Handler": "jwk/test/pkg/handler.UpdateSysUserHandler.func1", "NuHandlers": 4}
+2022-09-03 18:25:10.032	INFO	web/web.go:28	WebServer Start, Addr: 	{"serverAddr": "0.0.0.0:21080"}
+2022-09-03 18:25:20.965	DEBUG	handler/base.go:44	/test1	{"Status": 200, "Method": "GET", "Path": "/test1", "Query": "id=1", "Ip": "127.0.0.1", "Errors": "", "Cost": 1.0703645}
+2022-09-03 18:25:39.648	DEBUG	handler/base.go:44	/test1	{"Status": 200, "Method": "GET", "Path": "/test1", "Query": "id=1", "Ip": "127.0.0.1", "Errors": "", "Cost": 0.7579954}
+2022-09-03 18:26:37.053	DEBUG	test/main.go:14	TestServer Start...
+2022-09-03 18:26:37.054	INFO	web/web.go:20	Endpoint:	{"Method": "GET", "Path": "/test", "Handler": "jwk/test/pkg/handler.GetSysUserHandler.func1", "NuHandlers": 4}
+2022-09-03 18:26:37.054	INFO	web/web.go:20	Endpoint:	{"Method": "GET", "Path": "/test1", "Handler": "jwk/test/pkg/handler.UpdateSysUserHandler.func1", "NuHandlers": 4}
+2022-09-03 18:26:37.054	INFO	web/web.go:28	WebServer Start, Addr: 	{"serverAddr": "0.0.0.0:21080"}
+2022-09-03 18:26:40.123	DEBUG	handler/base.go:44	/test1	{"Status": 200, "Method": "GET", "Path": "/test1", "Query": "id=1", "Ip": "127.0.0.1", "Errors": "", "Cost": 1.1672444}
+2022-09-03 18:33:42.546	DEBUG	test/main.go:14	TestServer Start...
+2022-09-03 18:33:42.546	INFO	web/web.go:20	Endpoint:	{"Method": "GET", "Path": "/test", "Handler": "jwk/test/pkg/handler.GetSysUserHandler.func1", "NuHandlers": 4}
+2022-09-03 18:33:42.546	INFO	web/web.go:20	Endpoint:	{"Method": "GET", "Path": "/test1", "Handler": "jwk/test/pkg/handler.UpdateSysUserHandler.func1", "NuHandlers": 4}
+2022-09-03 18:33:42.547	INFO	web/web.go:28	WebServer Start, Addr: 	{"serverAddr": "0.0.0.0:21080"}
+2022-09-03 18:33:58.531	DEBUG	handler/base.go:44	/test1	{"Status": 200, "Method": "GET", "Path": "/test1", "Query": "id=1", "Ip": "127.0.0.1", "Errors": "", "Cost": 1.1957209}
+2022-09-03 18:34:38.414	DEBUG	test/main.go:14	TestServer Start...
+2022-09-03 18:34:38.415	INFO	web/web.go:20	Endpoint:	{"Method": "GET", "Path": "/test", "Handler": "jwk/test/pkg/handler.GetSysUserHandler.func1", "NuHandlers": 4}
+2022-09-03 18:34:38.415	INFO	web/web.go:20	Endpoint:	{"Method": "GET", "Path": "/test1", "Handler": "jwk/test/pkg/handler.UpdateSysUserHandler.func1", "NuHandlers": 4}
+2022-09-03 18:34:38.415	INFO	web/web.go:28	WebServer Start, Addr: 	{"serverAddr": "0.0.0.0:21080"}
+2022-09-03 18:34:48.087	DEBUG	handler/base.go:44	/test1	{"Status": 200, "Method": "GET", "Path": "/test1", "Query": "id=1", "Ip": "127.0.0.1", "Errors": "", "Cost": 0.7106721}
+2022-09-03 18:40:02.759	DEBUG	test/main.go:14	TestServer Start...
+2022-09-03 18:40:02.760	INFO	web/web.go:20	Endpoint:	{"Method": "GET", "Path": "/test", "Handler": "jwk/test/pkg/handler.GetSysUserHandler.func1", "NuHandlers": 4}
+2022-09-03 18:40:02.760	INFO	web/web.go:20	Endpoint:	{"Method": "GET", "Path": "/test1", "Handler": "jwk/test/pkg/handler.UpdateSysUserHandler.func1", "NuHandlers": 4}
+2022-09-03 18:40:02.760	INFO	web/web.go:28	WebServer Start, Addr: 	{"serverAddr": "0.0.0.0:21080"}
+2022-09-03 18:40:15.726	DEBUG	handler/base.go:44	/test1	{"Status": 200, "Method": "GET", "Path": "/test1", "Query": "id=1", "Ip": "127.0.0.1", "Errors": "", "Cost": 0.3046129}
+2022-09-03 18:41:58.120	DEBUG	test/main.go:14	TestServer Start...
+2022-09-03 18:41:58.120	INFO	web/web.go:20	Endpoint:	{"Method": "GET", "Path": "/test", "Handler": "jwk/test/pkg/handler.GetSysUserHandler.func1", "NuHandlers": 4}
+2022-09-03 18:41:58.120	INFO	web/web.go:20	Endpoint:	{"Method": "GET", "Path": "/test1", "Handler": "jwk/test/pkg/handler.UpdateSysUserHandler.func1", "NuHandlers": 4}
+2022-09-03 18:41:58.120	INFO	web/web.go:28	WebServer Start, Addr: 	{"serverAddr": "0.0.0.0:21080"}
+2022-09-03 18:41:59.852	DEBUG	handler/base.go:44	/test1	{"Status": 200, "Method": "GET", "Path": "/test1", "Query": "id=1", "Ip": "127.0.0.1", "Errors": "", "Cost": 0.5336337}

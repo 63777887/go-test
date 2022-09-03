@@ -1,0 +1,23 @@
+
+# 服务配置，配置IP、端口等
+server:
+  host: 0.0.0.0 # 如需要任意IP访问，则填写:“0.0.0.0” 或 “::”
+  port: 21080 # 如果随机生成，则填写:“0”
+  context: / # 如直接通过IP+端口访问，则填写:“” 或 “/”
+  data: ./data # 数据存储目录，存储文件等
+
+mysql:
+  host: 47.241.180.241
+  port: 3306
+  database: jcloud
+  username: root
+  password: Awert159
+
+# 日志配置
+log:
+  filename: ./log/server.log
+  maxSize: 100 # 文件大小单位M
+  maxAge: 10 # 保留旧文件的最大天数
+  maxBackups: 10 # 最多几个文件，在进行切割之前，日志文件的最大大小（以MB为单位）
+  level: debug # 级别，debug，info，warn，error
+  compress: false # 是否压缩/归档旧文件
